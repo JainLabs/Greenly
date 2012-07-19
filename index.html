@@ -3,6 +3,8 @@
 
   <head>
     <title>Greenly</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link href="css/todos.css" media="all" rel="stylesheet" type="text/css"/>
     <script src="js/json2.js"></script>
     <script src="js/jquery-1.6.4.min.js"></script>
@@ -10,9 +12,10 @@
     <script src="js/backbone.js"></script>
     <script src="js/backbone-localstorage.js"></script>  
     <script src="js/todos.js"></script>
+    <script> function blockMove() {event.preventDefault() ; } </script>
   </head>
 
-  <body>
+  <body ontouchstart="blockMove()" ontouchmove="blockMove()">
 
     <!-- Todo App Interface -->
 
