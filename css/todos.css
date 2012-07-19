@@ -50,7 +50,7 @@ body {
 	box-shadow: rgba(0, 0, 0, 0.2) 0 5px 6px 0;
 }
 #todoapp h1 {
-	font-size: 36px;
+	font-size: 72px;
 	font-weight: bold;
 	text-align: center;
 	padding: 20px 0 30px 0;
@@ -483,7 +483,8 @@ body {
 }
 /* line 118 */
 #todoapp #todo-stats .todo-count {
-	float: left;
+	float: center;
+	font-size: 36px;
 }
 /* line 120 */
 #todoapp #todo-stats .todo-count .number {
@@ -529,3 +530,11 @@ body {
 	top: 1px;
 }
 
+.horiz_line {
+	border-bottom: 1px solid #CCC;
+}
+
+.pointcontainer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
